@@ -1,0 +1,322 @@
+/*  ---png--- */
+img{ behavior: url(/css/iepngfix.htc); }
+
+a, a:active, a:focus, a:link, a:visited, div a, div a:active, div a:focus, div a:link, div a:visited, img, img:focus{
+	outline: 0;
+	-moz-outline-style: 0;
+}
+
+
+a {
+	color:#3C3C3C;
+}
+
+.spotlight_iframe {
+	margin:-1000px 0 0 0;
+	display:none;
+}
+
+/* ---------------------------------- /
+/    NAV CSS
+/ ----------------------------------- */
+
+#submenu{
+background-image:url(/visitors/images/nav/sidenav_mid_bkg.png); background-repeat:repeat-y;
+padding-left:10px;
+width:163px;
+}
+
+
+/* ---------------------------------- /
+/   TEXT STYLES
+/ ----------------------------------- */
+
+.leadArticleTitle {
+	color:#a24f52;
+	text-transform:uppercase;
+	font-weight:bold;
+    font-size:11px;
+	}
+	
+.articlePromoTitle {
+	color:#a24f52;
+	text-transform:uppercase;
+	font-weight:bold;
+    font-size:11px;
+	}
+	
+.secondaryPromoTitle {
+	color:#a24f52;
+	text-transform:uppercase;
+	font-weight:bold;
+    font-size:11px;
+	}
+	
+.infoPanelTitle, .info_pnl_Title {
+	color:#2f6089;
+	text-transform:uppercase;
+	font-size:11px;
+	font-weight:bold;
+	}
+	
+.searchMethodHeader {
+	color:#9a3d16;
+	font-size:11px;
+	font-weight:bold;
+	text-transform:uppercase;
+	}
+
+.brdcrmb_txt{
+	position:relative;
+	margin-left:15px;
+	color:#333333;
+}
+.brdcrmb_txt a{
+	color:#333333;
+}
+
+
+
+/* ---------------------------------- /
+/   SHELL PAGE STRUCTURE
+/ ----------------------------------- */
+#brdcrmb{
+	background-image:url(/visitors/images/headers/brdcrmb_bkg.jpg);
+	background-repeat:no-repeat;
+	height:17px; 
+	width:700px;
+	padding-top:5px;
+}
+
+#container {
+/* master container for all page elements */
+	width:760px;
+	margin-left:auto;
+	margin-right:auto;	
+
+}
+
+#mainMenuNav {
+/* container for top nav include */
+
+}
+
+#bkg {
+/* primary shell page background */
+	background-image:url(/visitors/images/bkg/pageShellBkg.jpg);
+	background-repeat:repeat;
+	background-position:-3px 0px; /* to compensate for the 5px width of the left border */
+	_padding-bottom: 5px;
+
+}
+
+#borderLeft {
+/* left outer border of the page  */
+	background-image:url(/visitors/images/bkg/borderShellLeft.jpg);
+	background-position:top left;
+	background-repeat:repeat-y;
+
+}
+
+#borderRight {
+/* right outer border of the page */
+	background-image:url(/visitors/images/bkg/borderShellRight.jpg);
+	background-position:top right;
+	background-repeat:repeat-y;
+	position:relative;
+}
+
+#borderBottom {
+	background-image:url(/visitors/images/bkg/borderShellBottom.jpg);
+	background-repeat:no-repeat;
+	background-position:top left;
+	height:8px;
+	margin-bottom:22px; /* to compensate for the bottomBarLTL overhang */
+	overflow:visible;
+	position:relative;
+	top: -2px;
+}
+
+#bottomBar {
+	width:762px;
+	height:63px;
+	position:absolute;
+	z-index:100;
+	top:-20px; /* revised from -32px on 11/5/09 */
+	left:-5px;
+	background-image:url(/visitors/images/master/bottomLTL_lf.gif);
+	background-position:top left;
+	background-repeat:no-repeat;
+}
+
+#subMenu {
+	position:absolute;
+	z-index:1000;
+	left:586px; 
+	top:0px;
+}
+
+#main {
+/* outermost container of all page specific content on the page */
+/*
+	"massaging" this new template into place
+	margin-left:5px;
+	margin-right:10px;
+*/
+}
+
+.clearAll {
+	clear:both;
+}
+
+
+
+/* ---------------------------------- /
+/   COMPONENTS - MOVE TO SEPARATE STYLE SHEET
+/ ----------------------------------- */
+
+#leadArt {
+	padding-bottom:15px;
+}
+#photoGalleryComponent{
+	position:relative;
+	z-index:3;
+}
+#photoGallerySubhd{
+	padding-bottom:5px;
+}
+
+#secondaryPromoPanel {
+clear:left;
+  }
+  
+.secpromo_pic {
+margin-left:-5px;
+float:left;
+
+}
+#secpromo_txt {
+margin-left:135px;
+}
+
+
+#search_fish{
+	position:relative; 
+	width:745px; 
+	height:265; 
+	border:3px; 
+	border-color:#33FF00; 
+	background-color:#fcfff4;
+  }
+  
+ 
+#searchListingsMap{
+	float:left;
+	margin-left:-5px; 
+	width:240px; 
+	height:245px; 
+}
+#searchfishlist{
+margin-left:5px; 
+	width:500px; 
+	float:right;
+	clear:none;
+
+ }
+.srchfshtitle{
+margin-top: 25px;
+}
+
+/*-----------------------------------------------------*/
+.articlePromoTitle a{
+font-size:11px;
+color:#a24f52;
+}
+
+.leadArticleTitle a{
+color:#a24f52;
+}
+.secondaryPromoTitle a{
+color:#a24f52;
+}
+
+
+#tripPlanner, #tripPlanner a {
+font-size: 10px;
+color: #3d3d80;
+text-decoration: none;
+}
+
+#tripPlanner {
+padding: 8px;
+margin-left: 8px;
+}
+
+#tripPlanner A:link {text-decoration: none}
+#tripPlanner A:visited {text-decoration: none}
+#tripPlanner A:active {text-decoration: none}
+
+
+#googlemap_zip{
+	width: 200px;
+	/* display: block; */
+	padding: 5px;
+}
+
+#googlemap_zip input{
+	margin-top: 5px;
+	font-size: 11px;
+	font-family: Arial,Helvetica,sans-serif;
+}
+
+#googlemap_zip h3{
+	margin: 0px 0px 5px 0px;
+	padding: 0px;
+	color: #333;
+}
+
+/* LOCAL CSS */
+
+
+nobr {white-space:nowrap;}
+
+
+/* footer */
+/*
+#footerTable {
+	width:745px;
+	margin:auto;
+}
+*/
+
+.footerTitle {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size: 12px;
+	font-style:italic;
+	/*color:#1a438e;*/
+	color:#2F2E60 !important;
+}
+
+.footerLinks {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color:#2F2E60;
+	line-height:1.2em;
+}
+
+.footerLinks a {
+	color:#000000 !important;
+	text-decoration:none !important;
+}
+
+.footerLinks a:hover {
+	text-decoration:underline !important;
+}
+
+p.footer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color:#2F2E60;
+	text-align: center;
+}	

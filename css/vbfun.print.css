@@ -1,0 +1,61 @@
+#global_nav, .breadcrumbs, #breadcrumb, #livethelife, #footer, .simple_divider, #follow_guide_usercontrol, .tabbedleft_content{
+	display: none;
+}
+
+body.visitors, .pattern, *, .white_colored, .lightgreen{
+	background-image: none;
+	background-color: #fff;
+	color: #000;
+}
+
+#layout{
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.shadowedbox{
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+
+body.visitors #layout.white{
+	border: 0px;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+
+
+	border-top: 4px solid #aaa;	
+	border-bottom: 4px solid #aaa;
+	padding: 15px 0px;
+}
+
+#logo_web{ display: none; }
+#logo_print{ display: inline; }
+
+.tabbedleft ul li *{
+	display: inline;
+}
+
+.tabbedleft ul li h4, .tabbedleft ul li h4.selected{
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	
+	background-image: none;
+	border: 0px;
+	text-shadow: none;
+	width: auto;
+}
+
+.tabbedleft ul{
+	width: auto;
+}
+
